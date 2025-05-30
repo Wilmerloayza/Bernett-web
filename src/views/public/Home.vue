@@ -36,7 +36,7 @@ const rooms = [
     id: 1,
     name: 'Habitación Estándar',
     image: '/images/room-standard.jpeg',
-    price: 89.00,
+    price: 50.00,
     size: 25,
     capacity: 2,
     bedType: 'Cama doble',
@@ -73,8 +73,8 @@ const rooms = [
   },
   {
     id: 4,
-    name: 'Suite Ejecutiva',
-    image: '/images/room-executive-suite.jpg',
+    name: 'Suite Ejecutiva ffff',
+    image: '/images/room-executive-suites.jpg',
     price: 219.00,
     size: 60,
     capacity: 4,
@@ -87,7 +87,7 @@ const rooms = [
   {
     id: 5,
     name: 'Habitación Familiar',
-    image: '/images/room-family.jpg',
+    image: '/images/bbb.jpg',
     price: 189.00,
     size: 50,
     capacity: 4,
@@ -100,7 +100,7 @@ const rooms = [
   {
     id: 6,
     name: 'Habitación Accesible',
-    image: '/images/room-accessible.jpg',
+    image: '/images/room-accessible.png',
     price: 89.00,
     size: 30,
     capacity: 2,
@@ -115,7 +115,7 @@ const rooms = [
 const heroSlides = [
   {
     image: "/images/hotel-lobby.jpg",
-    title: "Bienvenido a Hotel Paraíso",
+    title: "Bienvenido a Hostal Bernett",
     subtitle: "Disfruta de una experiencia única en un entorno de lujo y confort",
     //ctaText: "Reserva ahora",
     //btnVariant: "btn-primary" 

@@ -92,7 +92,7 @@
   }
   
   const formatPrice = (price) => {
-    return `€${price.toFixed(2)}`
+    return `Bs ${price.toFixed(2)}`
   }
   
   const getAmenityIcon = (amenity) => {
