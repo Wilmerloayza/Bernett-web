@@ -108,7 +108,7 @@
               <div class="col-md-6">
                 <div class="policy-item">
                   <div class="fw-semibold mb-1"><i class="bi bi-cash me-2"></i>Política de cancelación</div>
-                  <p class="text-muted mb-0">Cancelación gratuita hasta 48 horas antes de la fecha de llegada. Después de este período, se cobrará la primera noche.</p>
+                  <p class="text-muted mb-0">Cancelación de reserva, hasta 24 horas antes de la fecha de llegada.</p>
                 </div>
               </div>
             </div>
@@ -280,7 +280,7 @@ function formatDateForInput(date) {
 }
 
 function formatPrice(price) {
-  return `$100`;
+  return `Bs.40`;
 }
 
 function getTaxAmount() {
@@ -343,8 +343,8 @@ onMounted(async () => {
     const mockRooms = [
       {
         id: 1,
-        name: 'Habitación Estándar',
-        image: '/images/room-standard.jpeg',
+        name: 'HABITACION SIMPLE',
+        image: '/images/WhatsApp Image 2025-05-30 at 11.28.39.jpeg',
         price: 89.00,
         size: 25,
         capacity: 2,
@@ -360,16 +360,16 @@ onMounted(async () => {
       },
       {
         id: 2,
-        name: 'Habitación Deluxe',
-        image: '/images/room-deluxe.jpeg',
+        name: 'HABITACION CON BAÑO PRIVADO',
+        image: '/images/651854110.jpg',
         price: 129.00,
-        size: 35,
+        size: 4,
         capacity: 2,
         bedType: 'Cama king',
         floor: 3,
         view: 'Ciudad',
         description: 'Habitación espaciosa con vistas panorámicas. Equipada con minibar, escritorio y zona de estar. Perfecta para viajeros de negocios y placer.',
-        amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Caja fuerte', 'Baño privado'],
+        amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Baño privado'],
         isPopular: false,
         isFavorite: false,
         rating: 4.7,
@@ -394,16 +394,16 @@ onMounted(async () => {
       },
       {
         id: 4,
-        name: 'Suite Ejecutiva',
-        image: '/images/room-executive-suite.jpg',
-        price: 219.00,
+        name: 'HABITACION DOBLE',
+        image: '/images/WhatsApp Image 2025-05-30 at 11.28.37.jpeg',
+        price: 40.00,
         size: 60,
-        capacity: 4,
+        capacity: 2,
         bedType: 'Cama king + 2 camas individuales',
         floor: 5,
         view: 'Mar',
-        description: 'Amplia suite con dormitorio separado, sala de estar y comedor. Ideal para familias o estadías prolongadas. Incluye servicio de mayordomo.',
-        amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Caja fuerte', 'Baño privado', 'Balcón', 'Vista al mar', 'Desayuno incluido', 'Servicio de habitaciones'],
+        description: 'Amplia suite con dormitorio separado, sala de estar y comedor. Ideal para parejes, deseando estadías prolongadas.',
+        amenities: ['WiFi', 'TV', 'Aire acondicionado',],
         isPopular: true,
         isFavorite: false,
         rating: 4.9,

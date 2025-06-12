@@ -91,7 +91,7 @@
       default: () => [
         {
           id: 1,
-          name: 'Habitación Estándar',
+          name: 'HABITACION SIMPLE',
           image: '/room-standard.jpg',
           price: 89.00,
           size: 25,
@@ -104,20 +104,20 @@
         },
         {
           id: 2,
-          name: 'Habitación Deluxe',
+          name: 'HABITACION CON BAÑO PRIVADO',
           image: '/room-deluxe.jpg',
-          price: 129.00,
+          price: 60.00,
           size: 35,
           capacity: 2,
           bedType: 'Cama king',
           description: 'Habitación espaciosa con vistas panorámicas. Equipada con minibar, escritorio y zona de estar. Perfecta para viajeros de negocios y placer.',
-          amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Caja fuerte', 'Baño privado'],
+          amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar','Baño privado'],
           isPopular: false,
           isFavorite: false
         },
         {
           id: 3,
-          name: 'Suite Junior',
+          name: 'HABITACIONES MATRIMONIALES',
           image: '/room-junior-suite.jpg',
           price: 159.00,
           size: 45,
@@ -130,8 +130,8 @@
         },
         {
           id: 4,
-          name: 'Suite Ejecutiva',
-          image: '/room-executive-suite.jpg',
+          name: 'HABITACION DOBLE',
+          image: '/room-executive-suite.jpeg',
           price: 219.00,
           size: 60,
           capacity: 4,
@@ -144,8 +144,8 @@
         {
           id: 5,
           name: 'Habitación Familiar',
-          image: '/room-family.jpg',
-          price: 189.00,
+          image: '/images/651854085.jpg',
+          price: 70.00,
           size: 50,
           capacity: 4,
           bedType: '2 camas dobles',
@@ -156,7 +156,7 @@
         },
         {
           id: 6,
-          name: 'Habitación Accesible',
+          name: 'HABITACION EN PROMOCION',
           image: '/room-accessible.jpg',
           price: 89.00,
           size: 30,

@@ -11,7 +11,7 @@
           @click.prevent="toggleFavorite"
           :class="{'active': isFavorite}"
           :aria-label="isFavorite ? 'Quitar de favoritos' : 'Añadir a favoritos'"
-        >
+        > 
           <i class="bi" :class="isFavorite ? 'bi-heart-fill' : 'bi-heart'"></i>
         </button>
       </div>
@@ -22,6 +22,7 @@
           <div class="price-tag">
             <span class="fs-5 fw-bold text-primary">{{ formatPrice(room.price) }}</span>
             <span class="text-muted small">/noche</span>
+            <span class="text-muted small">/horas</span>
           </div>
         </div>
         
@@ -57,7 +58,7 @@
             class="btn btn-primary"
             @click="$emit('book', room.id)"
           >
-            comprar ahora <i class="bi bi-calendar-check ms-1"></i>
+            reservar ahora <i class="bi bi-calendar-check ms-1"></i>
           </button>
         </div>
       </div>
@@ -92,7 +93,7 @@
   }
   
   const formatPrice = (price) => {
-    return `Bs ${price.toFixed(2)}`
+    return `Bs. ${price.toFixed(2)}`
   }
   
   const getAmenityIcon = (amenity) => {

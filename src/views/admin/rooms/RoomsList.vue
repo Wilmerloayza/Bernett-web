@@ -406,10 +406,10 @@
   
   // Room types and floors
   const roomTypes = ref([
-    { id: 1, name: 'Habitación Estándar' },
+    { id: 1, name: 'HABITACION SIMPLE' },
     { id: 2, name: 'Habitación Deluxe' },
     { id: 3, name: 'Suite Junior' },
-    { id: 4, name: 'Suite Ejecutiva' }
+    { id: 4, name: 'HABITACION DOBLE' }
   ]);
   
   const floors = ref([1, 2, 3, 4, 5]);
@@ -568,8 +568,8 @@
           {
             id: 1,
             number: '101',
-            name: 'Habitación Estándar',
-            type: 'Habitación Estándar',
+            name: 'HABITACION SIMPLE',
+            type: 'HABITACION SIMPLE',
             typeId: 1,
             floor: 1,
             capacity: 2,
@@ -586,8 +586,8 @@
           {
             id: 2,
             number: '102',
-            name: 'Habitación Estándar',
-            type: 'Habitación Estándar',
+            name: 'HABITACION SIMPLE',
+            type: 'HABITACION SIMPLE',
             typeId: 1,
             floor: 1,
             capacity: 2,
@@ -604,8 +604,8 @@
           {
             id: 3,
             number: '103',
-            name: 'Habitación Estándar',
-            type: 'Habitación Estándar',
+            name: 'HABITACION SIMPLE',
+            type: 'HABITACION SIMPLE',
             typeId: 1,
             floor: 1,
             capacity: 2,
@@ -622,8 +622,8 @@
           {
             id: 4,
             number: '104',
-            name: 'Habitación Estándar',
-            type: 'Habitación Estándar',
+            name: 'HABITACION SIMPLE',
+            type: 'HABITACION SIMPLE',
             typeId: 1,
             floor: 1,
             capacity: 2,
@@ -712,8 +712,8 @@
           {
             id: 9,
             number: '401',
-            name: 'Suite Ejecutiva',
-            type: 'Suite Ejecutiva',
+            name: 'HABITACION DOBLE',
+            type: 'HABITACION DOBLE',
             typeId: 4,
             floor: 4,
             capacity: 4,
@@ -730,13 +730,13 @@
           {
             id: 10,
             number: '402',
-            name: 'Suite Ejecutiva',
-            type: 'Suite Ejecutiva',
+            name: 'HABITACION DOBLE',
+            type: 'HABITACION DOBLE',
             typeId: 4,
             floor: 4,
             capacity: 4,
             size: 60,
-            price: 219.00,
+            price: 40.00,
             description: 'Amplia suite con dormitorio separado, sala de estar y comedor. Ideal para familias o estadías prolongadas. Incluye servicio de mayordomo.',
             image: '/images/room-executive-suite.jpg',
             amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Caja fuerte', 'Baño privado', 'Balcón', 'Vista al mar', 'Desayuno incluido', 'Servicio de habitaciones'],
@@ -749,8 +749,8 @@
             id: 11,
             number: '501',
             name: 'Suite Presidencial',
-            type: 'Suite Ejecutiva',
-            typeId: 4,
+            type: 'HABIATACION DOBLE',
+            typeId: 2,
             floor: 5,
             capacity: 6,
             size: 120,
@@ -767,7 +767,7 @@
             id: 12,
             number: '502',
             name: 'Suite Familiar',
-            type: 'Suite Ejecutiva',
+            type: 'HABITACION DOBLE',
             typeId: 4,
             floor: 5,
             capacity: 5,

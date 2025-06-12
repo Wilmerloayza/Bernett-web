@@ -8,7 +8,7 @@
             <div class="card-body p-4 p-md-5">
               <!-- Logo or brand image -->
               <div class="text-center mb-4">
-                <img src="/images/logo.png" alt="Logo" class="img-fluid mb-3" style="max-height: 60px;">
+                <img src="/images/logotipo.jpeg" alt="Logo" class="img-fluid mb-3" style="max-height: 100%;">
                 <h1 class="h3 fw-bold text-primary mb-0">Crear una cuenta</h1>
               </div>
 

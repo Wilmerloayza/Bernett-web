@@ -224,7 +224,7 @@
                       <div class="card-footer bg-light">
                         <div class="cancellation-policy small">
                           <i class="bi bi-info-circle me-1"></i>
-                          <strong>Política de cancelación:</strong> Cancelación gratuita hasta 48 horas antes de la fecha de llegada. Después de este período, se cobrará la primera noche.
+                          <strong>Política de cancelación:</strong> Cancelación anticipado hasta 24 horas antes de la fecha de llegada. Después de este período.
                         </div>
                       </div>
                     </div>
@@ -541,7 +541,7 @@
             <p>Para confirmar su reserva, se requiere el pago completo por adelantado. Los precios mostrados incluyen impuestos y tasas locales.</p>
             
             <h5>2. Política de cancelación</h5>
-            <p>Las cancelaciones realizadas con al menos 48 horas de antelación a la fecha de llegada recibirán un reembolso completo. Para cancelaciones posteriores, se cobrará el importe de la primera noche.</p>
+            <p>Las cancelaciones con al menos 24 horas de antelación a la fecha de llegada recibirán un reembolso completo. Para cancelaciones posteriores, se cobrará el importe de la primera noche.</p>
             
             <h5>3. Check-in y check-out</h5>
             <p>El check-in está disponible a partir de las 14:00h del día de llegada. El check-out debe realizarse antes de las 12:00h del día de salida. El check-in tardío o el check-out anticipado no dan derecho a ningún reembolso.</p>
@@ -869,8 +869,8 @@ onMounted(async () => {
     const mockRooms = [
       {
         id: 1,
-        name: 'Habitación Estándar',
-        image: '/images/room-standard.jpeg',
+        name: 'HABITACION SIMPLE',
+        image: '/images/WhatsApp Image 2025-05-30 at 11.28.39.jpeg',
         price: 89.00,
         size: 25,
         capacity: 2,
@@ -884,9 +884,9 @@ onMounted(async () => {
       },
       {
         id: 2,
-        name: 'Habitación Deluxe',
-        image: '/images/room-deluxe.jpeg',
-        price: 129.00,
+        name: 'HABITACION CON BAÑO PRIVADO',
+        image: '/images/651854110.jpg',
+        price: 60.00,
         size: 35,
         capacity: 2,
         bedType: 'Cama king',
@@ -899,7 +899,7 @@ onMounted(async () => {
       },
       {
         id: 3,
-        name: 'Suite Junior',
+        name: 'HABITACIONES MATRIMONIALES',
         image: '/images/room-junior-suite.jpg',
         price: 159.00,
         size: 45,
@@ -914,7 +914,7 @@ onMounted(async () => {
       },
       {
         id: 4,
-        name: 'Suite Ejecutiva',
+        name: 'HABITACION DOBLE',
         image: '/images/room-executive-suite.jpg',
         price: 219.00,
         size: 60,
@@ -922,7 +922,7 @@ onMounted(async () => {
         bedType: 'Cama king + 2 camas individuales',
         floor: 5,
         view: 'Mar',
-        description: 'Amplia suite con dormitorio separado, sala de estar y comedor. Ideal para familias o estadías prolongadas. Incluye servicio de mayordomo.',
+        description: 'Amplia  habitacion con dormitorio, sala de estar y comedor. Ideal para familias o estadías prolongadas. Incluye servicio de mayordomo.',
         amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Caja fuerte', 'Baño privado', 'Balcón', 'Vista al mar', 'Desayuno incluido', 'Servicio de habitaciones'],
         rating: 4.9,
         reviewCount: 112

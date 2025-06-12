@@ -1,7 +1,7 @@
 <template>
     <section class="py-5 bg-light">
       <div class="container">
-        <h2 class="text-center fw-semibold mb-4">Testimonios</h2>
+        <h2 class="text-center fw-semibold mb-9">VISITANOS Y COMUNICATE</h2>
         <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div

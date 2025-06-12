@@ -278,10 +278,10 @@ const isLoading = ref(true);
 const error = ref(null);
 const reservations = ref([]);
 const roomTypes = ref([
-  { id: 1, name: 'Habitación Estándar' },
-  { id: 2, name: 'Habitación Deluxe' },
+  { id: 1, name: 'HABITACION SIMPLE' },
+  { id: 2, name: 'HABITACION CON BAÑO PRIVADO' },
   { id: 3, name: 'Suite Junior' },
-  { id: 4, name: 'Suite Ejecutiva' }
+  { id: 4, name: 'HABITACION DOBLE' }
 ]);
 
 // Filter and sorting state
@@ -431,7 +431,7 @@ function refreshData() {
           guestEmail: 'carlos.rodriguez@email.com',
           guestAvatar: '/images/avatar-1.jpg',
           roomNumber: '101',
-          roomType: 'Habitación Estándar',
+          roomType: 'HABITACION SIMPLE',
           roomTypeId: 1,
           checkIn: '2025-06-01',
           checkOut: '2025-06-05',
@@ -476,7 +476,7 @@ function refreshData() {
           guestEmail: 'ana.garcia@email.com',
           guestAvatar: '/images/avatar-4.jpg',
           roomNumber: '402',
-          roomType: 'Suite Ejecutiva',
+          roomType: 'HABITACION DOBLE',
           roomTypeId: 4,
           checkIn: '2025-05-20',
           checkOut: '2025-05-23',
@@ -491,7 +491,7 @@ function refreshData() {
           guestEmail: 'pedro.sanchez@email.com',
           guestAvatar: '/images/avatar-5.jpg',
           roomNumber: '102',
-          roomType: 'Habitación Estándar',
+          roomType: 'HABITACION SIMPLE',
           roomTypeId: 1,
           checkIn: '2025-06-15',
           checkOut: '2025-06-20',
@@ -536,7 +536,7 @@ function refreshData() {
           guestEmail: 'carmen.ruiz@email.com',
           guestAvatar: null,
           roomNumber: '404',
-          roomType: 'Suite Ejecutiva',
+          roomType: 'HABITACION DOBLE',
           roomTypeId: 4,
           checkIn: '2025-07-01',
           checkOut: '2025-07-05',
@@ -551,7 +551,7 @@ function refreshData() {
           guestEmail: 'javier.moreno@email.com',
           guestAvatar: '/images/avatar-7.jpg',
           roomNumber: '104',
-          roomType: 'Habitación Estándar',
+          roomType: 'HABITACION SIMPLE',
           roomTypeId: 1,
           checkIn: '2025-06-25',
           checkOut: '2025-06-28',
@@ -596,8 +596,8 @@ function refreshData() {
           guestEmail: 'elena.castro@email.com',
           guestAvatar: '/images/avatar-9.jpg',
           roomNumber: '405',
-          roomType: 'Suite Ejecutiva',
-          roomTypeId: 4,
+          roomType: 'HABIATACION DOBLE',
+          roomTypeId: 2,
           checkIn: '2025-07-15',
           checkOut: '2025-07-20',
           total: 1095.00,

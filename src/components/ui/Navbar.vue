@@ -4,18 +4,18 @@
         <!-- Marca -->
         <router-link class="navbar-brand fw-bold text-primary" to="/">
           <img
-            src="/images/logo.png"
+            src="/images/logotipo.jpeg"
             alt="Logo"
             class="d-inline-block align-text-top me-2"
-            style="width: 40px; height: 40px; object-fit: cover;"
-          />
-          HOSPEDAJE BERMETT
+            style="width: 280px; height: 150px; object-fit: cover;"
+          />    
+  <span style="font-family: 'cursor', serif; font-size: 60px;">HOSPEDAJE BERMETT</span>
         </router-link>
   
         <!-- Toggle movil -->
         <button
           class="navbar-toggler"
-          type="button"
+          type="button" 
           data-bs-toggle="collapse"
           data-bs-target="#mainNavbar"
         >

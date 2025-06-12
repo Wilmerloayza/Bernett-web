@@ -34,22 +34,22 @@ const router = useRouter();
 const rooms = [
   {
     id: 1,
-    name: 'Habitación Estándar',
-    image: '/images/room-standard.jpeg',
-    price: 50.00,
+    name: 'HABITACION SIMPLE',
+    image: '/images/WhatsApp Image 2025-05-30 at 11.28.39.jpeg',
+    price: 30.00,
     size: 25,
     capacity: 2,
     bedType: 'Cama doble',
-    description: 'Habitación acogedora con todas las comodidades necesarias para una estancia agradable. Incluye baño privado y vistas a la ciudad.',
-    amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Baño privado'],
+    description: 'Habitación acogedora con todas las comodidades necesarias para una estancia agradable.',
+    amenities: ['WiFi',],
     isPopular: true,
     isFavorite: false
   },
   {
     id: 2,
-    name: 'Habitación Deluxe',
-    image: '/images/room-deluxe.jpeg',
-    price: 129.00,
+    name: 'HABITACION CON BAÑO PRIVADO',
+    image: '/images/651854110.jpg',
+    price: 60.00,
     size: 35,
     capacity: 2,
     bedType: 'Cama king',
@@ -60,36 +60,36 @@ const rooms = [
   },
   {
     id: 3,
-    name: 'Suite Junior',
-    image: '/images/room-junior-suite.jpg',
-    price: 159.00,
-    size: 45,
-    capacity: 3,
+    name: 'HABITACIONES MATRIMONIALES',
+    image: '/images/WhatsApp Image 2025-05-30 at 19.27.04.jpeg',
+    price: 80.00,
+    size: 5,
+    capacity: 2,
     bedType: 'Cama king + sofá cama',
-    description: 'Suite elegante con dormitorio y sala de estar separada. Ofrece un espacio perfecto para relajarse después de un día de turismo o negocios.',
-    amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Caja fuerte', 'Baño privado', 'Balcón'],
+    description: 'habuitacion elegante con dormitorio. Ofrece un espacio perfecto para relajarse después de un día de turismo o negocios.',
+    amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Baño privado',],
     isNew: true,
     isFavorite: false
   },
   {
     id: 4,
-    name: 'Suite Ejecutiva ffff',
-    image: '/images/room-executive-suites.jpg',
-    price: 219.00,
+    name: 'HABIATACION DOBLE',
+    image: '/images/WhatsApp Image 2025-05-30 at 11.28.37.jpeg',
+    price: 40.00,
     size: 60,
-    capacity: 4,
+    capacity: 2,
     bedType: 'Cama king + 2 camas individuales',
-    description: 'Amplia suite con dormitorio separado, sala de estar y comedor. Ideal para familias o estadías prolongadas. Incluye servicio de mayordomo.',
-    amenities: ['WiFi', 'TV', 'Aire acondicionado', 'Minibar', 'Caja fuerte', 'Baño privado', 'Balcón', 'Vista al mar', 'Desayuno incluido', 'Servicio de habitaciones'],
+    description: 'Amplia habitacion con dormitorio, Ideal para  estadías prolongadas. ',
+    amenities: ['WiFi', 'TV', 'Aire acondicionado',, 'Servicio de habitaciones'],
     isPopular: true,
     isFavorite: false
   },
   {
     id: 5,
     name: 'Habitación Familiar',
-    image: '/images/bbb.jpg',
-    price: 189.00,
-    size: 50,
+    image: '/images/651854085.jpg',
+    price: 70.00,
+    size: 5,
     capacity: 4,
     bedType: '2 camas dobles',
     description: 'Habitación espaciosa diseñada para familias. Incluye zona de juegos para niños y todas las comodidades para una estancia confortable.',
@@ -99,9 +99,9 @@ const rooms = [
   },
   {
     id: 6,
-    name: 'Habitación Accesible',
-    image: '/images/room-accessible.png',
-    price: 89.00,
+    name: 'PROMOCIONES FECHAS FESTIVAS',
+    image: '/images/WhatsApp Image 2025-05-30 at 19.19.07.jpeg',
+    price: 50.00,
     size: 30,
     capacity: 2,
     bedType: 'Cama doble',
@@ -115,14 +115,14 @@ const rooms = [
 const heroSlides = [
   {
     image: "/images/hotel-lobby.jpg",
-    title: "Bienvenido a Hostal Bernett",
+    title: "Bienvenido al Hospedaje Bernett",
     subtitle: "Disfruta de una experiencia única en un entorno de lujo y confort",
     //ctaText: "Reserva ahora",
     //btnVariant: "btn-primary" 
   },
   {
     image: "/images/hotel-pool.jpg",
-    title: "Relájate y disfruta",
+    title: "Relájate y disfruta Una",
     subtitle: "Instalaciones de primera clase para una estancia inolvidable",
     //ctaText: "Descubre más",
     alignment: "text-end",
@@ -130,8 +130,8 @@ const heroSlides = [
   },
   {
     image: "/images/hotel-restaurant.jpg",
-    title: "Experiencia gastronómica",
-    subtitle: "Sabores exquisitos en nuestros restaurantes de clase mundial",
+    title: "Experiencia que Nunca Olvidaras",
+    subtitle: "Puede Adquirir Variedad de Productos de Nuestra Tienda",
     //ctaText: "Ver menús",
     alignment: "text-start",
     //btnVariant: "btn-outline-light"
@@ -149,22 +149,22 @@ const heroSlides = [
 // Datos para la sección de testimonios
 const testimonials = [
   {
-    name: "Juan Pérez",
-    image: "/images/testimonial-juan.jpeg",
-    text: "Una experiencia inolvidable. El servicio fue excelente y las instalaciones de primera clase.",
+    name: "Sucursal 1",
+    image: "/images/WhatsApp Image 2025-05-30 at 19.46.20.jpeg",
+    text: "Dir: Villa Caluyo D #784 Entre Calle 5 y 6.",
     rating: 5
   },
   {
-    name: "María López",
-    image: "/images/testimonial-maria.jpg",
-    text: "El spa fue increíble, realmente me ayudó a relajarme. Definitivamente volveré.",
+    name: "Sucursal 2",
+    image: "/images/WhatsApp Image 2025-05-30 at 19.45.49.jpeg",
+    text: "Zona Cruce Villa Adela, Av. Ladislao Cabrera, calle 1 N.º 2094 .",
     rating: 4.5
   },
   {
-    name: "Carlos García",
-    image: "/images/testimonial-carlos.jpg",
-    text: "La comida en el restaurante fue espectacular. Sabores únicos y un ambiente acogedor.",
-    rating: 5
+    name: "Orlando Quispe (propietario)",
+    image: "/images/WhatsApp Image 2025-05-30 at 19.41.13.jpeg",
+    text: "comunicate con los numeros en pantalla 70165207-65138908.",
+    rating: 8
   }
 ];
 
@@ -174,9 +174,9 @@ const secondaryCtaSubtitle = "Reserva ahora y obtén un descuento exclusivo.";
 const secondaryCtaText = "Reserva ahora";
 
 // Datos para la sección "Sobre nosotros"
-const aboutImage = "/images/about-us.jpg";
-const aboutTitle = "Acerca de nosotros";
-const aboutText = "En Hotel Paraíso, nos esforzamos por ofrecer una experiencia única y memorable para cada uno de nuestros huéspedes.";
+const aboutImage = "/images/WhatsApp Image 2025-05-30 at 14.26.29.jpeg";
+const aboutTitle = "Acerca de Nosotros";
+const aboutText = "En el HOSTAL BERNETT,Ofrecer un servicio de calidad, accesible y disponible las 24 horas en El Alto en nuestras dos sucursales con parqueo gratis, con atención respetuosa y culturalmente inclusiva, enfocada en el bienestar del huésped, y con proyección de crecimiento mediante nuevas sucursales.";
 const aboutValues = [
   { icon: "fa-solid fa-star", text: "Calidad excepcional" },
   { icon: "fa-solid fa-heart", text: "Atención personalizada" },
